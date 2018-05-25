@@ -5,7 +5,7 @@ public class User
 	private String uID;       //user id
 	private String uName;     //user name
 	private String password;  //user password
-	private int isLoggedIn;   //0 if user isn't looged in already, 1 else
+	private int isLoggedIn;   //0 if user isn't logged in already, 1 else
 	
 	public User(String uID, String uName, String password, int isLoggedIn) {
 		super();
