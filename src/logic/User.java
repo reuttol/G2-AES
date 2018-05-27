@@ -7,12 +7,11 @@ public class User
 	private String password;  //user password
 	private int isLoggedIn;   //0 if user isn't logged in already, 1 else
 	
-	public User(String uID, String uName, String password, int isLoggedIn) {
+	public User(String uID, String uName, String password) {
 		super();
 		this.uID = uID;
 		this.uName = uName;
 		this.password = password;
-		this.isLoggedIn = isLoggedIn;
 	}
 	
 	public String getuID() {
