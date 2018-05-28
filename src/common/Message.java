@@ -18,7 +18,7 @@ public class Message implements Serializable
 	private String queryToDo; // which action we want to do 
 	private String ColumnToUpdate; 
 	private String ValueToUpdate; //this two variables help us to make the SQL query more generic
-	
+	///bla bla
 	public Message(String queryQ,String queryTodo) 
 	{
 		sentObj=null;
